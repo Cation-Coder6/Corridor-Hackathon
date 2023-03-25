@@ -1,5 +1,6 @@
 import './App.css';
 import CsvToJson from './components/CsvToJson';
+import ConfusionMatrixComponent from './components/Graphs/ConfusionMatrixComponent';
 import Graphs from './components/Graphs/Graphs';
 import GeneratePDF from './components/pdfGenerator';
 
@@ -9,6 +10,7 @@ function App() {
             <CsvToJson />
             <Graphs />
             <GeneratePDF />
+            <ConfusionMatrixComponent />
         </div>
     );
 }
