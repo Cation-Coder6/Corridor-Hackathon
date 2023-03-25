@@ -1,10 +1,10 @@
 import './App.css';
-import ParseCSV from './components/parseCSV.JS';
+import CsvToJson from './components/CsvToJson';
 
 function App() {
   return (
     <div className="App">
-      Home
+      <CsvToJson />
     </div>
   );
 }
