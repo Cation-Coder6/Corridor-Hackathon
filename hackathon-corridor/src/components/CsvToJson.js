@@ -1,5 +1,7 @@
 import React from 'react'
 import Papa from "papaparse";
+import axios from "axios"
+const { localStorage } = window;
 
 function CsvToJson() {
     return (
@@ -19,6 +21,11 @@ function CsvToJson() {
                             },
                             complete: function (results) {
                                 console.log("Finished:", results.data);
+                                localStorage.setItem('myData', JSON.stringify(results.data));
+
+                                const myData = JSON.parse(localStorage.getItem('myData'));
+                                console.log("Data stored in local storage is ", myData);
+
                             },
                         });
                     }
