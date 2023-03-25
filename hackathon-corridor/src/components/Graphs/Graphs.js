@@ -26,7 +26,7 @@ function Graphs() {
 
 
 
-  
+
 
   return (
     <div>
