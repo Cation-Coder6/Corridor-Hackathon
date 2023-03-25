@@ -33,7 +33,7 @@ function Graphs() {
 
 
 
-  
+
 
   return (
     <div>

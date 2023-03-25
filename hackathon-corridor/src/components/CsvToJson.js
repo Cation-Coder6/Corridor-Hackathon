@@ -25,7 +25,7 @@ function CsvToJson() {
 
                                 const myData = JSON.parse(localStorage.getItem('myData'));
                                 console.log("Data stored in local storage is ", myData);
-
+                                //axios.post("http://localhost:8000/data/upload", results.data)
                             },
                         });
                     }
