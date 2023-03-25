@@ -27,6 +27,7 @@ function Graphs() {
 
 
   
+
   return (
     <div>
       <Histogram chartData={userData} />
